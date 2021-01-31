@@ -41,7 +41,6 @@ rm -rf %{pypi_name}.egg-info
 %py_install
 
 %files
-#doc README.rst docs
-#{python_sitelib}/moviepy-%{version}-py*.*.egg-info/PKG-INFO
-#{python_sitelib}/moviepy-%{version}-py*.*.egg-info/
-#{python_sitelib}/moviepy/*
+%{python_sitelib}/pgi-%{version}-py*.*.egg-info/PKG-INFO
+%{python_sitelib}/pgi-%{version}-py*.*.egg-info/
+%{python_sitelib}/pgi/*
