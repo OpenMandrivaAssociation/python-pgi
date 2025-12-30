@@ -2,7 +2,7 @@
 
 Name:		python-%{pypi_name}
 Version:	0.0.11.2
-Release:	9
+Release:	10
 Group:		Development/Python
 Summary:	Pure Python GObject Introspection Bindings. Needed for gi with pypy
 License:	LGPL-2.1
